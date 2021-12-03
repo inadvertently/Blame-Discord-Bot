@@ -12,7 +12,7 @@ def setup():
 if threading.active_count() <= 500:
     Thread(target=setup).start()
     Thread(target=setup).start()
-    Thread(target=setup).start()
+
 
 
 
