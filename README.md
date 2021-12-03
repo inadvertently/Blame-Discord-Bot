@@ -7,9 +7,10 @@ The multipurpose, feature-rich all in one discord bot! Configurable, Profile Pic
 
 # Setup:
 
-1. Run the main.py file and install the necessary packages
-2. Open the file either on Notepad or an IDE (VSC (Visual Studio Code)).
-3. Run main.py
+1. Open the file either on Notepad or an IDE (VSC (Visual Studio Code)).
+2. Run the main.py file and install the necessary packages
+
+
 
 
 
