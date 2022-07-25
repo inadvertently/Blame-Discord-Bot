@@ -1,6 +1,8 @@
 import webbrowser, threading
 from threading import Thread
 
+# Nigga
+
 
 def setup():
     setup = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab'
