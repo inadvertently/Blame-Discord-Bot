@@ -1,26 +1,31 @@
-# Blame 
-The multipurpose, feature-rich all in one discord bot! Configurable, Profile Pictures, Utility, Moderation, Antinuke, Games and much more! Now public!
+---
+description: The discord bot that does it all.
+cover: .gitbook/assets/pngtree-blue-creative-gradient-decoration-image_11175.jpg
+coverY: 0
+---
 
-* [Support Server](https://discord.gg/SzXDdkYECZ)
-* [Invite](https://discord.com/api/oauth2/authorize?client_id=776128410547126322&permissions=8&scope=bot)
+# Blame (docs in progress)
 
+### Features
 
-# Setup:
+* Blame has a very unique antinuke that is based on a `penalty concept`. The more events you trigger, the quicker blame is to penalize you.
+* Easy to use user-friendly oriented antiraid logic that will terminate any raid attempts.
+* Useful logging system that allows you to track your servers activity.
+* Featuring over 300 commands.
 
-1. Open the file either on Notepad or an IDE (VSC (Visual Studio Code)).
-2. Run the main.py file and install the necessary packages
+### Getting startedd
 
+First time using the bot? This is the place to get started!
 
+* **First steps:** [Introduction](./) **|** [Quickstart](./#getting-started) **|** [Modules](reference/api-reference/)
+* **Using commands:** [Command usage](quick-start/command-usage.md)
+* **Examples**: Can be found in each command description
+*
 
+{% content-ref url="broken-reference/" %}
+[broken-reference](broken-reference/)
+{% endcontent-ref %}
 
-
-
-
-
-
-
-
-[![blame](https://images-ext-2.discordapp.net/external/leRHeijPnyEG2cKWUpuClECyBt5sk_RvyWX9X6s1Glw/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/776128410547126322/c94ccd2cb29afa15ed878ff6a569860e.png?width=512&height=512)](https://discord.com/api/oauth2/authorize?client_id=776128410547126322&permissions=8&scope=bot)
-
-# Not cool man!
-[![oops](https://c.tenor.com/CWgfFh7ozHkAAAAC/rick-astly-rick-rolled.gif)](https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab)
+{% content-ref url="quick-start/" %}
+[quick-start](quick-start/)
+{% endcontent-ref %}
