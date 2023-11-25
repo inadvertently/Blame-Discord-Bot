@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="src/css/main_page.css">
+	<link rel="stylesheet" href="src/css/termynal.css">
+
+	<link rel="stylesheet" href="https://use.typekit.net/owe0unj.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<title>blame.</title>
+</head>
+<body>
+	<div>
+		<div id="hero_section">
+			
+			<div id="title_block">
+				<h1 id="title"><span id="highlight_hover">b</span><span id="highlight_hover">l</span><span id="highlight_hover">a</span><span id="highlight_hover">m</span><span id="highlight_hover">e</span><span id="highlight">.</span></h1>
+				<p id="title_desc">introducing <span id="highlight">blame</span>, an aesthetically advanced multipurpose bot designed for full fledged security while retaining it's ability of being a worthy utility.</p>
+				<a href="https://discord.gg/yNFdkqQJ2X"><button>Invite.</button></a>
+			</div>
+			
+			<div style="float: left; margin-top: 100px;">
+				<div id="termynal" data-termynal>
+		    		<span data-ty style="color: red;">(blame) raid detected!</span>
+		    		<span data-ty="input" data-ty-prompt="~/blame >">;an enable</span>
+		    		<span data-ty style="color: green;">(blame) anti-nuke enabled!</span>
+		    		<span data-ty="input" data-ty-prompt="~/blame >">;ar enable</span>
+		    		<span data-ty style="color: green;">(blame) anti-raid enabled!</span>
+				</div>
+			</div>
+		</div>
+		<!-- id="hero_section" class="moveme_down" -->
+		<div id="hero_section" class="moveme_down">
+
+			<div style="display: flex;">
+	
+				<div id="anti_nuke1">
+					<br>
+					<p id="anti_nuke1_heading">antinuke settings<span id="highlight">:</span></p>
+					<div id="anti_nuke1_typebox">
+						<br>
+						<p id="anti_nuke_typebox_input">Types: <span id="highlight">normal</span>, <span id="highlight">guild</span></p>
+						<br>
+						<div style="display: flex;">
+							<div id="anti_nuke_splitbox1">
+								<p id="anti_nuke_splitbox_heading">normal<span id="highlight">:</span></p>
+								<p id="anti_nuke_splitbox_input">create<span id="highlight">.</span>channels<span id="highlight">:</span> <span class="anti_nuke_val">true</span><br>create<span id="highlight">.</span>roles<span id="highlight">:</span> <span class="anti_nuke_val">true</span><br><span id="highlight">...</span></p>
+							</div>
+							
+							<div id="anti_nuke_splitbox2">
+								<p id="anti_nuke_splitbox_heading">guild<span id="highlight">:</span></p>
+								<p id="anti_nuke_splitbox_input">change<span id="highlight">.</span>vanity<span id="highlight">:</span> <span class="anti_nuke_val">true</span><br>change<span id="highlight">.</span>icon<span id="highlight">:</span> <span class="anti_nuke_val">true</span><br><span id="highlight">...</span></p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div>
+					<h1 id="section1_title"><span id="highlight">protect</span>ion.</h1>
+					<p id="section1_desc">protect your server, like never before. blame is equipped with a multi-dynamic anti-nuke system, completely designed to tighten the depths of security.</p>
+				</div>
+
+			</div>
+			<br>
+			<div style="display: flex;">
+				<div id="section1_square">
+					<div style="position: relative; top: 50%; transform: translateY(-50%); text-align: center;">
+						<div id="counter">
+							<div class="counter-value" data-count="17" id="section1_square_value">0</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="section1_rectangle">
+					<div style="display: flex; justify-content: center; align-items: center;">
+						<div id="section1_ins_rectangle">
+							<p id="section1_ins_rectangle_input">triggers<span id="highlight">:</span></p>
+							<p id="section1_ins_rectangle_input2">antinuke <span id="highlight">&</span> antiraid<span id="highlight">:</span> <span class="anti_nuke_val">enabled</span></p>
+							<p id="section1_ins_rectangle_input2"><span id="highlight">17</span> triggers are currently<br><span class="anti_nuke_val">enabled</span>.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<div id="hero_section" style="margin-top: 2000px;">
+			<p>hello</p>
+		</div>
+
+		<!-- This is the counter function, will add this later.
+		<div id="hero_section" class="moveme_down" style="display: flex;">
+			<div>
+				<div id="counter">
+					<span><div class="counter-value" data-count="400" id="title_no_commands">300</div><span id="title_no_commands_sign">+</span></span>
+				</div>
+				<p id="no_commands_desc">commands</p>
+			</div>
+		</div>
+		-->
+
+
+
+
+	</div>
+	<script src="src/js/termynal.js" data-termynal-container="#termynal"></script>
+	<script type="text/javascript">
+	var a = 0;
+	$(window).scroll(function() {
+	
+	  var oTop = $('#counter').offset().top - window.innerHeight;
+	  if (a == 0 && $(window).scrollTop() > oTop) {
+	    $('.counter-value').each(function() {
+	      var $this = $(this),
+	        countTo = $this.attr('data-count');
+	      $({
+	        countNum: $this.text()
+	      }).animate({
+	          countNum: countTo
+	        },
+	
+	        {
+	
+	          duration: 4000,
+	          easing: 'swing',
+	          step: function() {
+	            $this.text(Math.floor(this.countNum));
+	          },
+	          complete: function() {
+	            $this.text(this.countNum);
+	            //alert('finished');
+	          }
+	
+	        });
+	    });
+	    a = 1;
+	  }
+	
+	});
+	</script>
+
+	<script type="text/javascript">
+	var b = 0;
+	function sleepFor(sleepDuration){
+	    var now = new Date().getTime();
+	    while(new Date().getTime() < now + sleepDuration){ 
+	        /* Do nothing */ 
+	    }
+	}
+
+	$(window).scroll(function() {
+	
+	  var skid = $('#counter').offset().top - window.innerHeight;
+	  if (b == 0 && $(window).scrollTop() > skid) {
+
+	  	const skid = document.getElementsByClassName("anti_nuke_val");
+
+		for(var i = 0; i < skid.length; i++){
+			skid[i].style.color = "#32CD32";
+		}
+
+	  b = 1
+
+
+
+	  }
+	
+	});
+	</script>
+</body>
+</html>

@@ -1,0 +1,3 @@
+[config]
+auth=your_auth
+token=your_token

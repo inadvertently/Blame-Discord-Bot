@@ -1,0 +1,66 @@
+html {
+	background-color: #222831;
+	color: white;
+}
+
+
+#main_header {
+	font-family: 'Inter', sans-serif;
+	font-size: 30px;
+	color: white;
+
+	/* Positioning */
+  	height: 100%;
+  	width: 100%;
+  	display: flex;
+  	position: fixed;
+  	align-items: center;
+  	justify-content: center;
+  	animation: fadein 4s;
+}
+
+#rectangle_1 {
+	height: 60px;
+	width: 180px;
+	border-radius: 15px;
+	background-color: white;
+	position: relative;
+	transition: background-color 2s;
+}
+
+
+#rectangle_1:hover {
+	background-color: #fca40a;
+
+}
+
+
+#center_discord {
+	margin: auto;
+	margin-top: 10px;
+	display: block;
+}
+
+#highlight {
+	color: #fca40a;
+	animation: highlight 4s;
+}
+
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@keyframes highlight {
+    from { color: #fff; }
+    to   { color: #fca40a; }
+}
+
+
+img {
+  transition: transform .7s ease-in-out;
+}
+img:hover {
+  transform: rotate(360deg);
+}
