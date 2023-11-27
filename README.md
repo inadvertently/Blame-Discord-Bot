@@ -58,7 +58,7 @@
 
 <p align="center"><b><i>
   *These are only some of the features; you can explore the source for more :)</b></i>
-  <br>by Jacob, Cop, Kite & Curse. References include: Red Bot & Miso Bot 
+  <br>by Jacob, Cop, Kite & Curse. References include: Red Bot, Miso Bot & RoboDanny
 </p>
 
 
