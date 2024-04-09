@@ -28,7 +28,7 @@
 ---
 
 <p align="center">
-  <strong>A Discord bot with over 300 commands that make things easy! Some include:</strong>
+  <strong>A Discord bot with over 300+ commands that make things easy! Some include:</strong>
 </p>
 
 <p align="center">
