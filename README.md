@@ -66,9 +66,9 @@
 
 # 📝 | Overview
 
-Blame is meant to be an adavnced discord bot, this means all commands, modules and features can be enabled/disabled per guild. Each module that involves events, is cached opun the bot starting up. This was more of an official bot rather than something that was meant to be open-sourced - this means that it can be a bit difficult for some to get running as it contains many dependencies.
+Blame is meant to be an advanced discord bot, this means all commands, modules, and features can be enabled/disabled per guild. Each module that involves events, is cached on the bot starts up. This was more of an official bot rather than something that was meant to be open-sourced - this means that it can be a bit difficult for some to get running as it contains many dependencies.
 
-[Installation](#installation) is easy in the sense that you should have a bit of coding experience. For those that don't, i'd reccomend navigating to certain modules, extracting them, and adding them to your own bot.
+[Installation](#installation) is easy in the sense that you should have a bit of coding experience. For those that don't, i'd recommend navigating to certain modules, extracting them, and adding them to your bot.
 
 ---
 
@@ -121,7 +121,7 @@ LASTFM_TOKEN = "your_lastfm_token"
 
     1. Turn on Developer Mode under Discord Settings > Advanced 
 
-    2. Right click on your profile icon in any chat and copy your ID 
+    2. Right-click on your profile icon in any chat and copy your ID 
     </p>
   </details>
 
@@ -171,6 +171,6 @@ python main.py
 
 Many reasons. My plan was not to discontinue blame but as the saying goes, all good things come to an end.
 
-Project Blame began in January of 2021 with the main developer being Sorrow (We'll refer to him as Jacob). The goal was to create a bot that can protect against Server Nuking, Server Raids and bot abuse. As the year progressed, Kite, had stumbled across the project and later on joined the team and took charge of the bots marketing. Blame was officially released on Sepetember 25, 2021. Within the first month of development, the bot grew astronomically which gave us a ton of motivation to continue the project. During 2022, the bot began to progress but extremly faster than before. We were in need of a dev, not just any, we needed one with experience; then came along **zack**. Zack was able to scale the bot as it needed to be which we had failed to do beforehand.
+Project Blame began in January of 2021 with the main developer being Sorrow (We'll refer to him as Jacob). The goal was to create a bot that could protect against Server Nuking, Server Raids and bot abuse. As the year progressed, Kite, had stumbled across the project and later on joined the team and took charge of the bots marketing. Blame was officially released on Sepetember 25, 2021. Within the first month of development, the bot grew astronomically which gave us a ton of motivation to continue the project. During 2022, the bot began to progress but extremly faster than before. We required a dev, not just any, we needed one with experience; then came along **zack**. Zack was able to scale the bot as it needed to be which we had failed to do beforehand.
 
-Today, Blame has came a long way from it's humble beginnings and reached a guild count of 12,000 and a usercount of 10,000,000.
+Today, Blame has came a long way from it's humble beginnings and reached a guild count of 12,000 and a user count of 10,000,000.
