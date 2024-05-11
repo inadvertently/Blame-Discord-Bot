@@ -139,7 +139,7 @@ python main.py
 | Module                       | Action                                                                                                     |
 | :---------------------------- | :--------------------------------------------------------------------------------------------------------- |
 | `antinuke`  | Server protection, Custom limits, templates, backups, custom penalties, and so much more! |
-| `antiraid`  | Detects raids, mass joins, new accounts, suspicious accounts, deafault profile pictures |
+| `antiraid`  | Detects raids, mass joins, new accounts, suspicious accounts, default profile pictures |
 | `autoresponder`  | Allows you to set custom trigger words that it'll then respond to with custom responses |
 | `anti-invite`  | Detects when invites are sent, custom punishments, whitelist specific channels |
 | `goodbye`  | Custom goodbye messages, normal text, supports embeds, multiple/specific channel support |
